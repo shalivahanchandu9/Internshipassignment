@@ -1,0 +1,13 @@
+Sudo apt install python3-pip -y
+pip install boto3
+
+
+TO Access the Aws credentials in ec2 instance:
+mkdir ~/.aws
+touch ~/.aws/credentials
+
+IN credentials file we has write this:
+[default]
+aws_access_key_id = AKIAUA4BZFPEDUX4TX3A
+aws_secret_access_key = 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
+region= ap-south-1
